@@ -1,3 +1,17 @@
+[ REACT WEATHER APP ]
+
+React App that shows weather based on users valid input for location.
+
+1. Weather is based on users valid location input.
+2. This app fetches data from an API.
+3. Whenever the temperature is below 16°C the background changes to cool weather.
+4. If temperature is above 16° app shows warmer background.
+
+
+Note: This app makes use of weather API key, this is kept in .env file as an ACCESS_KEY. This ACCESS_KEY is accounted into our main App.js file with "process.env". So, user need to add .env file once cloning this "repo", later add its API_ACCESS_Key.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
